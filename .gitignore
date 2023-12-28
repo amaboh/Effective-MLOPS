@@ -160,3 +160,5 @@ cython_debug/
 #.idea/
 data/**/*.tar.gz
 data/test/cifar-10-python.tar.gz
+data/test/**
+data/train/**

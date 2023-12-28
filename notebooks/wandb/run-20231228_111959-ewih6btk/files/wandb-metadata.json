@@ -1,0 +1,33 @@
+{
+    "os": "macOS-12.7.1-arm64-arm-64bit",
+    "python": "3.10.10",
+    "heartbeatAt": "2023-12-28T11:20:15.999163",
+    "startedAt": "2023-12-28T11:19:59.161728",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "notebooks/cv_model_development.ipynb",
+    "root": "/Volumes/AM/Desktop/MLOPs/Effective-MLOPS",
+    "git": {
+        "remote": "git@github.com:amaboh/Effective-MLOPS.git",
+        "commit": "640145272805f07fc9549669440a1a843f183842"
+    },
+    "email": "85511496+amaboh@users.noreply.github.com",
+    "host": "Amas-MacBook-Air.local",
+    "username": "ama",
+    "executable": "/Users/ama/mambaforge/bin/python",
+    "cpu_count": 8,
+    "cpu_count_logical": 8,
+    "disk": {
+        "total": 228.27386474609375,
+        "used": 208.8273696899414
+    },
+    "gpuapple": {
+        "type": "arm",
+        "vendor": "Apple"
+    },
+    "memory": {
+        "total": 8.0
+    }
+}
