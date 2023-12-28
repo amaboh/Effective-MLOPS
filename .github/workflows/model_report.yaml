@@ -40,7 +40,7 @@ jobs:
     - name: Generate the comparison report
       if: steps.get-runid-value.outputs.VAL_FOUND == 'true'
       id: wandb-report
-      run: python ./source/model_comparison.py
+      run: python ./source/tests/model_comparison.py
       env:
         WANDB_ENTITY: avri
         WANDB_PROJECT: Effective_MLOPs_CICD_CV
