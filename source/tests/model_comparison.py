@@ -1,7 +1,7 @@
 import os, wandb
 import wandb.apis.reports as wr
 
-assert os.getenv('WAND_API_KEY'), ' Set the WANDB_API_KEY env variable'
+assert os.getenv('WANDB_API_KEY'), ' Set the WANDB_API_KEY env variable'
 
 
 def get_baseline_run(entity='avri', project='Effective_MLOPs_CICD_CV', tags='baseline'):
