@@ -4,11 +4,11 @@ import wandb.apis.reports as wr
 assert os.getenv('WANDB_API_KEY'), ' Set the WANDB_API_KEY env variable'
 
 
-def get_baseline_run(entity='avri', project='Effective_MLOPs_CICD_CV', tags='baseline'):
+def get_baseline_run(entity='avri', project='Effective_MLOPs_CICD_CV', tag='baseline'):
     " Get baseline run using tags"
      
     api = wandb.Api()
-    runs = api.runs(f'{entity}/{project}', {"tags": {"$in": [tags]}})
+    runs = api.runs(f'{entity}/{project}', {"tags": {"$in": [tag]}})
     assert len(runs) == 1, 'There must be exactly one run with the tag baseline'
     return runs[0]
 
