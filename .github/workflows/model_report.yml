@@ -1,4 +1,4 @@
-name: reports
+name: model_report
 on: issue_comment
 
 permissions:
